@@ -1,0 +1,16 @@
+# E-Commerce Smart Predictive Analytics Platform
+# Core Dependencies
+
+# Data Science & ML
+pandas>=1.5.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Dashboard & Visualization  
+streamlit>=1.28.0
+plotly>=5.15.0
+
+# Model Persistence
+joblib>=1.3.0

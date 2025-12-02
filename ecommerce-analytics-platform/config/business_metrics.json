@@ -1,0 +1,10 @@
+{
+  "total_revenue": 10437706.3368987,
+  "total_customers": 1000,
+  "total_orders": 2500,
+  "avg_order_value": 4175.08253475948,
+  "churn_rate": 0.717,
+  "avg_customer_value": 4581.54705182785,
+  "top_category": "Home & Kitchen",
+  "avg_satisfaction": 3.9351612204290185
+}

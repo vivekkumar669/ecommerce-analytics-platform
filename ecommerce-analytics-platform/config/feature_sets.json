@@ -1,0 +1,19 @@
+{
+  "sales_features": [
+    "month",
+    "quarter",
+    "total_orders",
+    "unique_customers"
+  ],
+  "churn_features": [
+    "age",
+    "total_spent",
+    "days_since_last_order",
+    "satisfaction_score"
+  ],
+  "segmentation_features": [
+    "total_orders",
+    "total_spent",
+    "avg_order_value"
+  ]
+}
