@@ -18,7 +18,6 @@
    ```bash
    streamlit run ecommerce_dashboard.py
    ```
-5. **Open your browser** and go to http://localhost:8501
 
 ## Platform Features
 
