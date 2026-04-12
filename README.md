@@ -16,7 +16,7 @@
    ```
 4. **Run the application:**
    ```bash
-   streamlit run ecommerce_dashboard.py
+   https://ecommercepr.streamlit.app/
    ```
 
 ## Platform Features
