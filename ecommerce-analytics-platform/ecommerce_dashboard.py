@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -9,6 +10,7 @@ from datetime import datetime, timedelta
 import warnings
 import time
 import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 warnings.filterwarnings('ignore')
 
 # Import ML libraries
@@ -67,8 +69,8 @@ st.markdown("""
 def load_sample_data():
     """Load sample datasets"""
     try:
-        customers = pd.read_csv('data/ecommerce_customers_with_segments.csv')
-        orders = pd.read_csv('data/ecommerce_orders.csv')
+        customers = pd.read_csv(os.path.join(BASE_DIR, 'data', 'ecommerce_customers_with_segments.csv'))
+        orders = pd.read_csv(os.path.join(BASE_DIR, 'data', 'ecommerce_orders.csv'))
         
         # Normalize column names: 'segment_name' -> 'segment'
         if 'segment_name' in customers.columns and 'segment' not in customers.columns:
@@ -89,7 +91,7 @@ def load_sample_data():
 def load_config_data():
     """Load configuration files"""
     try:
-        with open('config/business_metrics.json', 'r') as f:
+        with open(os.path.join(BASE_DIR, 'config', 'business_metrics.json'), 'r') as f:
             business_metrics = json.load(f)
             
         with open('config/model_performance.json', 'r') as f:
