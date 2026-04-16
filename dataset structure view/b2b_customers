@@ -1,0 +1,301 @@
+customer_id,company_name,company_size,industry,location_type,payment_terms,credit_limit,account_manager
+B2B_00001,Company_1,Large (201-1000),Healthcare,Urban,Net 30,25000,AM_005
+B2B_00002,Company_2,Small (1-50),Technology,Rural,Net 30,25000,AM_002
+B2B_00003,Company_3,Medium (51-200),Retail,Urban,Immediate,10000,AM_005
+B2B_00004,Company_4,Enterprise (1000+),Retail,Urban,Immediate,25000,AM_004
+B2B_00005,Company_5,Large (201-1000),Healthcare,Suburban,Net 15,250000,AM_002
+B2B_00006,Company_6,Medium (51-200),Manufacturing,Urban,Net 30,250000,AM_002
+B2B_00007,Company_7,Enterprise (1000+),Technology,Urban,Net 30,250000,AM_004
+B2B_00008,Company_8,Large (201-1000),Services,Suburban,Net 15,100000,AM_004
+B2B_00009,Company_9,Enterprise (1000+),Healthcare,Urban,Net 30,10000,AM_002
+B2B_00010,Company_10,Medium (51-200),Technology,Rural,Net 60,10000,AM_002
+B2B_00011,Company_11,Enterprise (1000+),Services,Suburban,Net 15,100000,AM_004
+B2B_00012,Company_12,Medium (51-200),Retail,Suburban,Net 60,25000,AM_005
+B2B_00013,Company_13,Small (1-50),Technology,Urban,Net 30,10000,AM_005
+B2B_00014,Company_14,Large (201-1000),Technology,Urban,Net 30,25000,AM_004
+B2B_00015,Company_15,Medium (51-200),Manufacturing,Suburban,Immediate,10000,AM_003
+B2B_00016,Company_16,Small (1-50),Education,Urban,Net 60,50000,AM_005
+B2B_00017,Company_17,Large (201-1000),Healthcare,Urban,Net 30,25000,AM_005
+B2B_00018,Company_18,Medium (51-200),Manufacturing,Rural,Net 60,25000,AM_005
+B2B_00019,Company_19,Small (1-50),Retail,Rural,Net 30,10000,AM_004
+B2B_00020,Company_20,Small (1-50),Manufacturing,Urban,Immediate,25000,AM_002
+B2B_00021,Company_21,Large (201-1000),Education,Suburban,Net 30,100000,AM_005
+B2B_00022,Company_22,Small (1-50),Technology,Suburban,Net 30,50000,AM_003
+B2B_00023,Company_23,Large (201-1000),Retail,Urban,Net 30,25000,AM_004
+B2B_00024,Company_24,Medium (51-200),Healthcare,Suburban,Net 30,250000,AM_005
+B2B_00025,Company_25,Medium (51-200),Healthcare,Suburban,Net 60,10000,AM_003
+B2B_00026,Company_26,Medium (51-200),Education,Urban,Net 60,25000,AM_002
+B2B_00027,Company_27,Small (1-50),Retail,Urban,Immediate,10000,AM_005
+B2B_00028,Company_28,Large (201-1000),Services,Rural,Net 30,10000,AM_003
+B2B_00029,Company_29,Small (1-50),Services,Urban,Immediate,25000,AM_005
+B2B_00030,Company_30,Small (1-50),Healthcare,Urban,Net 30,10000,AM_005
+B2B_00031,Company_31,Large (201-1000),Retail,Rural,Net 60,25000,AM_002
+B2B_00032,Company_32,Small (1-50),Technology,Suburban,Net 60,250000,AM_001
+B2B_00033,Company_33,Small (1-50),Services,Suburban,Net 30,100000,AM_004
+B2B_00034,Company_34,Small (1-50),Technology,Suburban,Net 30,10000,AM_003
+B2B_00035,Company_35,Medium (51-200),Healthcare,Urban,Immediate,25000,AM_005
+B2B_00036,Company_36,Medium (51-200),Services,Urban,Net 60,10000,AM_004
+B2B_00037,Company_37,Enterprise (1000+),Healthcare,Suburban,Net 30,50000,AM_001
+B2B_00038,Company_38,Large (201-1000),Manufacturing,Suburban,Net 15,50000,AM_001
+B2B_00039,Company_39,Medium (51-200),Education,Rural,Immediate,100000,AM_005
+B2B_00040,Company_40,Medium (51-200),Manufacturing,Suburban,Net 30,10000,AM_004
+B2B_00041,Company_41,Medium (51-200),Technology,Urban,Net 30,10000,AM_003
+B2B_00042,Company_42,Small (1-50),Retail,Rural,Immediate,25000,AM_005
+B2B_00043,Company_43,Small (1-50),Healthcare,Suburban,Net 15,10000,AM_002
+B2B_00044,Company_44,Large (201-1000),Manufacturing,Urban,Net 30,250000,AM_002
+B2B_00045,Company_45,Medium (51-200),Manufacturing,Suburban,Net 30,10000,AM_004
+B2B_00046,Company_46,Enterprise (1000+),Education,Urban,Net 30,50000,AM_005
+B2B_00047,Company_47,Medium (51-200),Technology,Urban,Net 30,250000,AM_003
+B2B_00048,Company_48,Enterprise (1000+),Services,Rural,Net 30,50000,AM_003
+B2B_00049,Company_49,Small (1-50),Retail,Urban,Net 60,50000,AM_001
+B2B_00050,Company_50,Small (1-50),Technology,Urban,Net 30,10000,AM_005
+B2B_00051,Company_51,Small (1-50),Retail,Urban,Net 30,25000,AM_003
+B2B_00052,Company_52,Medium (51-200),Education,Suburban,Net 60,10000,AM_005
+B2B_00053,Company_53,Large (201-1000),Education,Urban,Immediate,25000,AM_005
+B2B_00054,Company_54,Large (201-1000),Technology,Suburban,Net 60,100000,AM_001
+B2B_00055,Company_55,Medium (51-200),Technology,Suburban,Net 15,10000,AM_005
+B2B_00056,Company_56,Large (201-1000),Manufacturing,Urban,Net 30,50000,AM_005
+B2B_00057,Company_57,Medium (51-200),Healthcare,Urban,Net 30,50000,AM_005
+B2B_00058,Company_58,Small (1-50),Technology,Urban,Net 60,250000,AM_001
+B2B_00059,Company_59,Large (201-1000),Retail,Urban,Net 60,50000,AM_004
+B2B_00060,Company_60,Large (201-1000),Manufacturing,Urban,Net 30,100000,AM_003
+B2B_00061,Company_61,Medium (51-200),Technology,Rural,Net 60,100000,AM_003
+B2B_00062,Company_62,Small (1-50),Healthcare,Suburban,Net 30,10000,AM_003
+B2B_00063,Company_63,Small (1-50),Manufacturing,Suburban,Immediate,50000,AM_001
+B2B_00064,Company_64,Large (201-1000),Retail,Urban,Net 60,50000,AM_004
+B2B_00065,Company_65,Enterprise (1000+),Services,Urban,Net 15,50000,AM_003
+B2B_00066,Company_66,Medium (51-200),Services,Suburban,Net 30,10000,AM_002
+B2B_00067,Company_67,Small (1-50),Education,Urban,Immediate,50000,AM_002
+B2B_00068,Company_68,Small (1-50),Healthcare,Urban,Net 30,10000,AM_004
+B2B_00069,Company_69,Small (1-50),Healthcare,Rural,Net 30,25000,AM_004
+B2B_00070,Company_70,Medium (51-200),Education,Urban,Net 15,100000,AM_001
+B2B_00071,Company_71,Small (1-50),Healthcare,Urban,Net 30,25000,AM_002
+B2B_00072,Company_72,Enterprise (1000+),Education,Urban,Immediate,10000,AM_003
+B2B_00073,Company_73,Large (201-1000),Technology,Suburban,Net 15,25000,AM_002
+B2B_00074,Company_74,Large (201-1000),Healthcare,Suburban,Immediate,50000,AM_003
+B2B_00075,Company_75,Large (201-1000),Manufacturing,Urban,Immediate,10000,AM_002
+B2B_00076,Company_76,Small (1-50),Technology,Urban,Immediate,25000,AM_001
+B2B_00077,Company_77,Large (201-1000),Manufacturing,Rural,Net 30,10000,AM_004
+B2B_00078,Company_78,Small (1-50),Services,Urban,Net 60,100000,AM_002
+B2B_00079,Company_79,Small (1-50),Services,Urban,Net 60,25000,AM_005
+B2B_00080,Company_80,Enterprise (1000+),Technology,Urban,Net 30,25000,AM_002
+B2B_00081,Company_81,Small (1-50),Manufacturing,Rural,Net 30,25000,AM_002
+B2B_00082,Company_82,Medium (51-200),Technology,Urban,Net 30,50000,AM_001
+B2B_00083,Company_83,Medium (51-200),Retail,Urban,Net 60,50000,AM_001
+B2B_00084,Company_84,Large (201-1000),Technology,Rural,Net 15,10000,AM_001
+B2B_00085,Company_85,Medium (51-200),Education,Urban,Net 15,250000,AM_005
+B2B_00086,Company_86,Small (1-50),Services,Urban,Net 60,10000,AM_001
+B2B_00087,Company_87,Medium (51-200),Manufacturing,Suburban,Immediate,10000,AM_004
+B2B_00088,Company_88,Small (1-50),Manufacturing,Urban,Net 30,50000,AM_001
+B2B_00089,Company_89,Small (1-50),Technology,Urban,Net 30,50000,AM_005
+B2B_00090,Company_90,Small (1-50),Education,Suburban,Net 30,50000,AM_004
+B2B_00091,Company_91,Medium (51-200),Technology,Urban,Net 60,10000,AM_005
+B2B_00092,Company_92,Medium (51-200),Technology,Suburban,Net 30,100000,AM_005
+B2B_00093,Company_93,Small (1-50),Technology,Rural,Net 60,50000,AM_003
+B2B_00094,Company_94,Small (1-50),Healthcare,Urban,Net 15,10000,AM_003
+B2B_00095,Company_95,Small (1-50),Retail,Suburban,Net 60,50000,AM_002
+B2B_00096,Company_96,Medium (51-200),Technology,Suburban,Net 30,25000,AM_005
+B2B_00097,Company_97,Medium (51-200),Manufacturing,Suburban,Net 30,25000,AM_001
+B2B_00098,Company_98,Large (201-1000),Services,Urban,Net 30,10000,AM_003
+B2B_00099,Company_99,Large (201-1000),Services,Rural,Net 30,10000,AM_002
+B2B_00100,Company_100,Large (201-1000),Manufacturing,Urban,Immediate,100000,AM_005
+B2B_00101,Company_101,Small (1-50),Manufacturing,Suburban,Net 60,100000,AM_003
+B2B_00102,Company_102,Large (201-1000),Services,Suburban,Net 30,25000,AM_002
+B2B_00103,Company_103,Small (1-50),Education,Urban,Immediate,10000,AM_003
+B2B_00104,Company_104,Medium (51-200),Retail,Urban,Net 30,100000,AM_005
+B2B_00105,Company_105,Large (201-1000),Education,Urban,Net 30,50000,AM_001
+B2B_00106,Company_106,Medium (51-200),Healthcare,Suburban,Net 60,25000,AM_002
+B2B_00107,Company_107,Enterprise (1000+),Retail,Urban,Net 30,25000,AM_002
+B2B_00108,Company_108,Small (1-50),Healthcare,Urban,Net 30,50000,AM_004
+B2B_00109,Company_109,Small (1-50),Retail,Suburban,Immediate,25000,AM_004
+B2B_00110,Company_110,Small (1-50),Technology,Urban,Net 30,10000,AM_001
+B2B_00111,Company_111,Large (201-1000),Healthcare,Suburban,Net 30,10000,AM_004
+B2B_00112,Company_112,Medium (51-200),Education,Rural,Net 60,25000,AM_004
+B2B_00113,Company_113,Enterprise (1000+),Healthcare,Urban,Net 60,10000,AM_004
+B2B_00114,Company_114,Medium (51-200),Retail,Urban,Immediate,100000,AM_002
+B2B_00115,Company_115,Large (201-1000),Education,Urban,Net 60,50000,AM_005
+B2B_00116,Company_116,Medium (51-200),Technology,Urban,Immediate,10000,AM_002
+B2B_00117,Company_117,Medium (51-200),Technology,Urban,Net 30,25000,AM_005
+B2B_00118,Company_118,Large (201-1000),Manufacturing,Urban,Net 15,250000,AM_002
+B2B_00119,Company_119,Medium (51-200),Healthcare,Urban,Net 15,25000,AM_004
+B2B_00120,Company_120,Enterprise (1000+),Education,Rural,Net 15,10000,AM_002
+B2B_00121,Company_121,Small (1-50),Education,Suburban,Net 30,50000,AM_004
+B2B_00122,Company_122,Large (201-1000),Technology,Suburban,Net 30,25000,AM_005
+B2B_00123,Company_123,Medium (51-200),Technology,Urban,Immediate,25000,AM_002
+B2B_00124,Company_124,Enterprise (1000+),Retail,Suburban,Net 30,50000,AM_003
+B2B_00125,Company_125,Small (1-50),Education,Urban,Net 30,250000,AM_003
+B2B_00126,Company_126,Small (1-50),Education,Urban,Net 60,100000,AM_005
+B2B_00127,Company_127,Medium (51-200),Services,Suburban,Immediate,10000,AM_003
+B2B_00128,Company_128,Medium (51-200),Retail,Suburban,Net 15,10000,AM_001
+B2B_00129,Company_129,Large (201-1000),Healthcare,Urban,Net 30,25000,AM_002
+B2B_00130,Company_130,Small (1-50),Education,Suburban,Net 30,25000,AM_001
+B2B_00131,Company_131,Medium (51-200),Healthcare,Urban,Net 15,25000,AM_001
+B2B_00132,Company_132,Medium (51-200),Healthcare,Suburban,Net 30,25000,AM_003
+B2B_00133,Company_133,Small (1-50),Technology,Suburban,Net 30,50000,AM_004
+B2B_00134,Company_134,Enterprise (1000+),Technology,Suburban,Net 30,10000,AM_003
+B2B_00135,Company_135,Large (201-1000),Retail,Urban,Net 30,10000,AM_002
+B2B_00136,Company_136,Small (1-50),Retail,Rural,Net 60,25000,AM_001
+B2B_00137,Company_137,Medium (51-200),Technology,Rural,Net 15,25000,AM_004
+B2B_00138,Company_138,Large (201-1000),Services,Urban,Net 30,50000,AM_003
+B2B_00139,Company_139,Medium (51-200),Manufacturing,Urban,Net 30,25000,AM_002
+B2B_00140,Company_140,Small (1-50),Technology,Urban,Net 30,250000,AM_003
+B2B_00141,Company_141,Small (1-50),Services,Urban,Immediate,10000,AM_001
+B2B_00142,Company_142,Small (1-50),Retail,Urban,Net 30,10000,AM_005
+B2B_00143,Company_143,Small (1-50),Technology,Suburban,Net 30,10000,AM_003
+B2B_00144,Company_144,Enterprise (1000+),Manufacturing,Urban,Net 60,100000,AM_004
+B2B_00145,Company_145,Large (201-1000),Education,Suburban,Net 60,10000,AM_003
+B2B_00146,Company_146,Medium (51-200),Healthcare,Urban,Net 30,50000,AM_002
+B2B_00147,Company_147,Small (1-50),Services,Suburban,Immediate,10000,AM_004
+B2B_00148,Company_148,Large (201-1000),Technology,Urban,Net 30,25000,AM_002
+B2B_00149,Company_149,Small (1-50),Retail,Urban,Immediate,10000,AM_005
+B2B_00150,Company_150,Large (201-1000),Services,Urban,Net 15,100000,AM_001
+B2B_00151,Company_151,Small (1-50),Healthcare,Rural,Net 30,25000,AM_002
+B2B_00152,Company_152,Medium (51-200),Healthcare,Rural,Net 30,100000,AM_004
+B2B_00153,Company_153,Medium (51-200),Education,Urban,Net 30,100000,AM_004
+B2B_00154,Company_154,Enterprise (1000+),Technology,Urban,Net 30,10000,AM_002
+B2B_00155,Company_155,Medium (51-200),Manufacturing,Suburban,Net 30,100000,AM_003
+B2B_00156,Company_156,Medium (51-200),Technology,Suburban,Net 30,25000,AM_002
+B2B_00157,Company_157,Medium (51-200),Healthcare,Urban,Immediate,10000,AM_002
+B2B_00158,Company_158,Enterprise (1000+),Technology,Suburban,Net 30,10000,AM_004
+B2B_00159,Company_159,Small (1-50),Technology,Rural,Net 15,25000,AM_001
+B2B_00160,Company_160,Small (1-50),Education,Urban,Immediate,10000,AM_005
+B2B_00161,Company_161,Large (201-1000),Retail,Suburban,Net 60,250000,AM_003
+B2B_00162,Company_162,Small (1-50),Education,Suburban,Net 30,100000,AM_004
+B2B_00163,Company_163,Medium (51-200),Technology,Urban,Net 15,25000,AM_005
+B2B_00164,Company_164,Small (1-50),Education,Rural,Net 30,100000,AM_001
+B2B_00165,Company_165,Enterprise (1000+),Retail,Urban,Net 60,50000,AM_003
+B2B_00166,Company_166,Small (1-50),Healthcare,Urban,Net 60,10000,AM_001
+B2B_00167,Company_167,Large (201-1000),Education,Urban,Net 30,25000,AM_004
+B2B_00168,Company_168,Enterprise (1000+),Manufacturing,Urban,Net 15,25000,AM_003
+B2B_00169,Company_169,Medium (51-200),Services,Suburban,Net 60,25000,AM_003
+B2B_00170,Company_170,Medium (51-200),Technology,Rural,Net 30,100000,AM_005
+B2B_00171,Company_171,Enterprise (1000+),Healthcare,Urban,Net 30,10000,AM_003
+B2B_00172,Company_172,Medium (51-200),Technology,Suburban,Immediate,50000,AM_002
+B2B_00173,Company_173,Medium (51-200),Technology,Suburban,Immediate,100000,AM_005
+B2B_00174,Company_174,Medium (51-200),Manufacturing,Urban,Immediate,10000,AM_002
+B2B_00175,Company_175,Small (1-50),Education,Suburban,Immediate,50000,AM_001
+B2B_00176,Company_176,Small (1-50),Manufacturing,Urban,Net 30,10000,AM_001
+B2B_00177,Company_177,Small (1-50),Healthcare,Suburban,Net 30,50000,AM_005
+B2B_00178,Company_178,Medium (51-200),Services,Suburban,Net 15,25000,AM_002
+B2B_00179,Company_179,Enterprise (1000+),Education,Urban,Net 30,50000,AM_002
+B2B_00180,Company_180,Medium (51-200),Technology,Suburban,Net 30,250000,AM_005
+B2B_00181,Company_181,Small (1-50),Manufacturing,Urban,Immediate,100000,AM_003
+B2B_00182,Company_182,Medium (51-200),Education,Urban,Net 60,10000,AM_002
+B2B_00183,Company_183,Small (1-50),Healthcare,Suburban,Net 30,100000,AM_003
+B2B_00184,Company_184,Large (201-1000),Education,Suburban,Net 30,50000,AM_001
+B2B_00185,Company_185,Medium (51-200),Healthcare,Urban,Immediate,50000,AM_001
+B2B_00186,Company_186,Medium (51-200),Healthcare,Urban,Net 30,25000,AM_005
+B2B_00187,Company_187,Enterprise (1000+),Manufacturing,Urban,Net 15,25000,AM_001
+B2B_00188,Company_188,Small (1-50),Retail,Urban,Net 30,50000,AM_005
+B2B_00189,Company_189,Small (1-50),Retail,Urban,Net 30,25000,AM_001
+B2B_00190,Company_190,Enterprise (1000+),Manufacturing,Suburban,Net 15,25000,AM_002
+B2B_00191,Company_191,Medium (51-200),Education,Suburban,Net 60,100000,AM_004
+B2B_00192,Company_192,Enterprise (1000+),Services,Rural,Net 60,10000,AM_004
+B2B_00193,Company_193,Enterprise (1000+),Technology,Suburban,Net 60,10000,AM_001
+B2B_00194,Company_194,Large (201-1000),Retail,Urban,Net 60,10000,AM_001
+B2B_00195,Company_195,Large (201-1000),Retail,Suburban,Net 30,50000,AM_001
+B2B_00196,Company_196,Small (1-50),Technology,Urban,Immediate,25000,AM_002
+B2B_00197,Company_197,Medium (51-200),Healthcare,Urban,Net 15,25000,AM_003
+B2B_00198,Company_198,Enterprise (1000+),Technology,Urban,Net 30,10000,AM_003
+B2B_00199,Company_199,Enterprise (1000+),Technology,Urban,Net 30,25000,AM_001
+B2B_00200,Company_200,Small (1-50),Retail,Urban,Net 60,100000,AM_004
+B2B_00201,Company_201,Large (201-1000),Technology,Urban,Net 60,100000,AM_003
+B2B_00202,Company_202,Small (1-50),Manufacturing,Urban,Net 60,10000,AM_004
+B2B_00203,Company_203,Large (201-1000),Healthcare,Suburban,Net 30,250000,AM_002
+B2B_00204,Company_204,Small (1-50),Services,Suburban,Net 30,50000,AM_003
+B2B_00205,Company_205,Medium (51-200),Healthcare,Urban,Net 30,25000,AM_004
+B2B_00206,Company_206,Small (1-50),Services,Urban,Net 60,10000,AM_004
+B2B_00207,Company_207,Medium (51-200),Education,Urban,Immediate,50000,AM_002
+B2B_00208,Company_208,Large (201-1000),Healthcare,Urban,Net 60,50000,AM_005
+B2B_00209,Company_209,Medium (51-200),Retail,Suburban,Immediate,10000,AM_005
+B2B_00210,Company_210,Small (1-50),Technology,Urban,Net 30,25000,AM_005
+B2B_00211,Company_211,Small (1-50),Manufacturing,Urban,Net 30,25000,AM_003
+B2B_00212,Company_212,Medium (51-200),Technology,Urban,Net 30,10000,AM_004
+B2B_00213,Company_213,Large (201-1000),Manufacturing,Urban,Immediate,25000,AM_005
+B2B_00214,Company_214,Large (201-1000),Retail,Urban,Net 30,50000,AM_001
+B2B_00215,Company_215,Enterprise (1000+),Manufacturing,Suburban,Net 60,10000,AM_004
+B2B_00216,Company_216,Small (1-50),Manufacturing,Suburban,Net 30,25000,AM_003
+B2B_00217,Company_217,Small (1-50),Technology,Urban,Net 60,250000,AM_005
+B2B_00218,Company_218,Small (1-50),Manufacturing,Suburban,Net 60,50000,AM_003
+B2B_00219,Company_219,Small (1-50),Retail,Suburban,Net 30,25000,AM_002
+B2B_00220,Company_220,Medium (51-200),Retail,Urban,Net 60,25000,AM_001
+B2B_00221,Company_221,Medium (51-200),Technology,Suburban,Net 15,50000,AM_001
+B2B_00222,Company_222,Large (201-1000),Healthcare,Urban,Immediate,25000,AM_001
+B2B_00223,Company_223,Medium (51-200),Manufacturing,Suburban,Immediate,100000,AM_004
+B2B_00224,Company_224,Small (1-50),Retail,Urban,Immediate,10000,AM_005
+B2B_00225,Company_225,Medium (51-200),Manufacturing,Urban,Net 30,25000,AM_001
+B2B_00226,Company_226,Medium (51-200),Healthcare,Urban,Net 15,25000,AM_005
+B2B_00227,Company_227,Large (201-1000),Technology,Urban,Net 60,50000,AM_005
+B2B_00228,Company_228,Medium (51-200),Technology,Urban,Net 15,10000,AM_003
+B2B_00229,Company_229,Medium (51-200),Education,Urban,Net 30,10000,AM_002
+B2B_00230,Company_230,Medium (51-200),Healthcare,Urban,Net 30,10000,AM_004
+B2B_00231,Company_231,Enterprise (1000+),Technology,Urban,Net 30,25000,AM_002
+B2B_00232,Company_232,Large (201-1000),Technology,Urban,Net 60,10000,AM_002
+B2B_00233,Company_233,Medium (51-200),Retail,Urban,Net 30,10000,AM_004
+B2B_00234,Company_234,Small (1-50),Services,Urban,Net 30,25000,AM_003
+B2B_00235,Company_235,Large (201-1000),Services,Suburban,Net 30,50000,AM_003
+B2B_00236,Company_236,Large (201-1000),Technology,Urban,Net 30,100000,AM_005
+B2B_00237,Company_237,Medium (51-200),Technology,Suburban,Net 15,25000,AM_002
+B2B_00238,Company_238,Small (1-50),Healthcare,Urban,Net 15,10000,AM_005
+B2B_00239,Company_239,Enterprise (1000+),Healthcare,Urban,Immediate,100000,AM_005
+B2B_00240,Company_240,Medium (51-200),Education,Urban,Net 30,100000,AM_003
+B2B_00241,Company_241,Medium (51-200),Education,Urban,Net 15,100000,AM_003
+B2B_00242,Company_242,Small (1-50),Manufacturing,Suburban,Immediate,250000,AM_003
+B2B_00243,Company_243,Enterprise (1000+),Healthcare,Suburban,Net 15,50000,AM_001
+B2B_00244,Company_244,Small (1-50),Manufacturing,Suburban,Immediate,100000,AM_004
+B2B_00245,Company_245,Medium (51-200),Technology,Urban,Net 30,250000,AM_002
+B2B_00246,Company_246,Small (1-50),Technology,Urban,Net 60,25000,AM_005
+B2B_00247,Company_247,Small (1-50),Technology,Urban,Net 30,25000,AM_001
+B2B_00248,Company_248,Small (1-50),Retail,Rural,Net 30,25000,AM_002
+B2B_00249,Company_249,Small (1-50),Healthcare,Urban,Net 30,100000,AM_002
+B2B_00250,Company_250,Medium (51-200),Healthcare,Suburban,Immediate,10000,AM_002
+B2B_00251,Company_251,Small (1-50),Education,Urban,Immediate,25000,AM_002
+B2B_00252,Company_252,Medium (51-200),Healthcare,Suburban,Net 60,25000,AM_002
+B2B_00253,Company_253,Enterprise (1000+),Technology,Suburban,Immediate,10000,AM_001
+B2B_00254,Company_254,Medium (51-200),Education,Urban,Net 30,10000,AM_002
+B2B_00255,Company_255,Small (1-50),Healthcare,Urban,Net 30,10000,AM_005
+B2B_00256,Company_256,Small (1-50),Retail,Urban,Net 60,10000,AM_001
+B2B_00257,Company_257,Small (1-50),Technology,Urban,Immediate,10000,AM_004
+B2B_00258,Company_258,Small (1-50),Technology,Urban,Net 60,10000,AM_003
+B2B_00259,Company_259,Medium (51-200),Technology,Urban,Immediate,25000,AM_001
+B2B_00260,Company_260,Enterprise (1000+),Manufacturing,Suburban,Net 30,10000,AM_002
+B2B_00261,Company_261,Medium (51-200),Healthcare,Suburban,Net 30,25000,AM_005
+B2B_00262,Company_262,Small (1-50),Manufacturing,Urban,Net 60,25000,AM_002
+B2B_00263,Company_263,Small (1-50),Manufacturing,Urban,Net 60,10000,AM_005
+B2B_00264,Company_264,Small (1-50),Education,Urban,Net 60,50000,AM_005
+B2B_00265,Company_265,Medium (51-200),Services,Urban,Immediate,10000,AM_003
+B2B_00266,Company_266,Large (201-1000),Healthcare,Urban,Net 30,10000,AM_005
+B2B_00267,Company_267,Small (1-50),Retail,Urban,Net 60,50000,AM_001
+B2B_00268,Company_268,Large (201-1000),Education,Urban,Immediate,10000,AM_005
+B2B_00269,Company_269,Large (201-1000),Retail,Urban,Net 60,10000,AM_005
+B2B_00270,Company_270,Medium (51-200),Technology,Suburban,Net 60,25000,AM_001
+B2B_00271,Company_271,Small (1-50),Manufacturing,Suburban,Net 60,10000,AM_005
+B2B_00272,Company_272,Large (201-1000),Healthcare,Urban,Net 15,25000,AM_001
+B2B_00273,Company_273,Medium (51-200),Technology,Urban,Net 30,10000,AM_005
+B2B_00274,Company_274,Large (201-1000),Technology,Urban,Immediate,50000,AM_002
+B2B_00275,Company_275,Medium (51-200),Healthcare,Suburban,Net 30,10000,AM_001
+B2B_00276,Company_276,Medium (51-200),Healthcare,Suburban,Net 30,25000,AM_001
+B2B_00277,Company_277,Enterprise (1000+),Healthcare,Urban,Net 30,10000,AM_003
+B2B_00278,Company_278,Small (1-50),Technology,Suburban,Net 15,25000,AM_003
+B2B_00279,Company_279,Medium (51-200),Technology,Suburban,Net 60,100000,AM_003
+B2B_00280,Company_280,Enterprise (1000+),Manufacturing,Urban,Net 30,10000,AM_004
+B2B_00281,Company_281,Medium (51-200),Manufacturing,Urban,Net 60,10000,AM_004
+B2B_00282,Company_282,Medium (51-200),Retail,Urban,Net 15,25000,AM_003
+B2B_00283,Company_283,Enterprise (1000+),Healthcare,Suburban,Net 30,50000,AM_005
+B2B_00284,Company_284,Small (1-50),Technology,Urban,Net 60,10000,AM_001
+B2B_00285,Company_285,Large (201-1000),Technology,Urban,Net 60,50000,AM_002
+B2B_00286,Company_286,Small (1-50),Services,Urban,Net 60,100000,AM_002
+B2B_00287,Company_287,Small (1-50),Technology,Rural,Net 30,10000,AM_002
+B2B_00288,Company_288,Medium (51-200),Services,Rural,Net 30,250000,AM_004
+B2B_00289,Company_289,Large (201-1000),Services,Urban,Net 60,100000,AM_003
+B2B_00290,Company_290,Medium (51-200),Education,Suburban,Net 30,100000,AM_005
+B2B_00291,Company_291,Medium (51-200),Retail,Urban,Net 30,25000,AM_004
+B2B_00292,Company_292,Small (1-50),Retail,Urban,Net 30,50000,AM_001
+B2B_00293,Company_293,Small (1-50),Technology,Urban,Net 30,10000,AM_003
+B2B_00294,Company_294,Small (1-50),Manufacturing,Urban,Net 60,25000,AM_004
+B2B_00295,Company_295,Medium (51-200),Retail,Urban,Net 30,50000,AM_005
+B2B_00296,Company_296,Enterprise (1000+),Services,Urban,Net 30,10000,AM_002
+B2B_00297,Company_297,Small (1-50),Healthcare,Urban,Net 30,10000,AM_002
+B2B_00298,Company_298,Small (1-50),Education,Urban,Net 60,25000,AM_005
+B2B_00299,Company_299,Large (201-1000),Technology,Urban,Net 30,25000,AM_004
+B2B_00300,Company_300,Large (201-1000),Healthcare,Rural,Net 30,100000,AM_004
