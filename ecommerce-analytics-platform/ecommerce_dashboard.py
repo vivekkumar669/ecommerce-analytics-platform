@@ -70,6 +70,10 @@ def load_sample_data():
         customers = pd.read_csv('data/ecommerce_customers_with_segments.csv')
         orders = pd.read_csv('data/ecommerce_orders.csv')
         
+        # Normalize column names: 'segment_name' -> 'segment'
+        if 'segment_name' in customers.columns and 'segment' not in customers.columns:
+            customers = customers.rename(columns={'segment_name': 'segment'})
+        
         # Process dates
         if 'order_date' in orders.columns:
             orders['order_date'] = pd.to_datetime(orders['order_date'])
@@ -661,7 +665,7 @@ elif st.session_state['analysis_results'] is not None:
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            if model_performance['sales']['trained']:
+            if model_performance['sales'].get('trained', False):
                 st.markdown(f"""
                 <div class="success-card">
                     <h4>📈 Sales Prediction</h4>
@@ -679,7 +683,7 @@ elif st.session_state['analysis_results'] is not None:
                 """, unsafe_allow_html=True)
 
         with col2:
-            if model_performance['churn']['trained']:
+            if model_performance['churn'].get('trained', False):
                 st.markdown(f"""
                 <div class="success-card">
                     <h4>⚠️ Churn Prediction</h4>
@@ -697,7 +701,7 @@ elif st.session_state['analysis_results'] is not None:
                 """, unsafe_allow_html=True)
 
         with col3:
-            if model_performance['segmentation']['trained']:
+            if model_performance['segmentation'].get('trained', False):
                 st.markdown(f"""
                 <div class="success-card">
                     <h4>👥 Segmentation</h4>
@@ -718,7 +722,7 @@ elif st.session_state['analysis_results'] is not None:
     elif page == "📈 Sales Prediction":
         st.header("📈 Sales Forecasting")
 
-        if model_performance['sales']['trained']:
+        if model_performance['sales'].get('trained', False):
             st.subheader("🔮 Revenue Prediction Tool")
 
             col1, col2 = st.columns(2)
@@ -774,7 +778,7 @@ elif st.session_state['analysis_results'] is not None:
         with col4:
             st.metric("Avg Spent", f"${business_metrics['avg_customer_value']:.0f}")
 
-        if model_performance['churn']['trained']:
+        if model_performance['churn'].get('trained', False):
             st.subheader("🎯 Churn Risk Calculator")
 
             col1, col2 = st.columns(2)
@@ -805,7 +809,10 @@ elif st.session_state['analysis_results'] is not None:
     elif page == "👥 Customer Segmentation":
         st.header("👥 Customer Segments")
 
-        if model_performance['segmentation']['trained'] and 'segment' in customers.columns:
+        if model_performance['segmentation'].get('trained', False) and ('segment' in customers.columns or 'segment_name' in customers.columns):
+            # Normalize column name if needed
+            if 'segment_name' in customers.columns and 'segment' not in customers.columns:
+                customers = customers.rename(columns={'segment_name': 'segment'})
             segment_counts = customers['segment'].value_counts().sort_index()
 
             col1, col2 = st.columns(2)

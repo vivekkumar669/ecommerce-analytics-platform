@@ -2,15 +2,18 @@
   "sales_prediction": {
     "model": "Linear Regression",
     "r2_score": 0.7818,
-    "mae": 65786.0
+    "mae": 65786.0,
+    "trained": true
   },
   "churn_prediction": {
     "model": "Logistic Regression",
-    "accuracy": 0.8725
+    "accuracy": 0.8725,
+    "trained": true
   },
   "customer_segmentation": {
     "model": "K-Means",
     "n_clusters": 3,
-    "silhouette_score": 0.23
+    "silhouette_score": 0.23,
+    "trained": true
   }
 }
