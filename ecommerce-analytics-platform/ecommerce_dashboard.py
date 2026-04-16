@@ -94,7 +94,7 @@ def load_config_data():
         with open(os.path.join(BASE_DIR, 'config', 'business_metrics.json'), 'r') as f:
             business_metrics = json.load(f)
             
-        with open('config/model_performance.json', 'r') as f:
+        with open(os.path.join(BASE_DIR, 'config', 'model_performance.json'), 'r') as f:
             model_performance = json.load(f)
             
         return business_metrics, model_performance
